@@ -54,5 +54,8 @@ This code handles a CAPTCHA verification process on a web page using Selenium fo
 5. Control Flow:
    - While loops and try-except blocks are used to handle retries and ensure robustness in the CAPTCHA-solving process.
 
+# Overall Workflow:
+Start Browser → 2. Navigate to Main Page → 3. Collect Tender Links → 4. Handle CAPTCHAs → 5. Prepare for Data Scraping
+
 # Summary
 The script automates the process of solving a CAPTCHA by comparing images displayed on the web page with a target CAPTCHA image. It uses Selenium for web interaction and OpenCV for image processing, allowing the script to programmatically solve the CAPTCHA and proceed with the web scraping task. The code is designed to handle potential errors and retries until the CAPTCHA is successfully solved.
